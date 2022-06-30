@@ -5,11 +5,12 @@ function bmiCalculator(weight,height)
 {
     //var weight, height;
     var bmi = Math.floor(weight / (height*height));
-    return bmi;
+    //return bmi;
+  console.log(bmi);
   
 }
 
-bmiCalculator(25,4);
+bmiCalculator(65,1.8);
 
 
 /* If my weight is 65Kg and my height is 1.8m, I should be able to call your function like this:
